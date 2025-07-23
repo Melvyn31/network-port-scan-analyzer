@@ -27,3 +27,14 @@ Objectif : scanner un réseau local à l’aide de **Nmap**, puis analyser les r
 
 ```bash
 nmap -sS -T4 -A -v 192.168.1.0/24 -oX scans/scan-result.xml
+
+## 🗂️ Fichiers importants
+
+- `scripts/analyzer.py` : script Python pour analyser un fichier XML Nmap  
+- `scans/scan-result.xml` : exemple de fichier XML généré par Nmap pour tester le script
+
+### Lancer l’analyse
+
+```bash
+python3 scripts/analyzer.py scans/scan-result.xml
+
