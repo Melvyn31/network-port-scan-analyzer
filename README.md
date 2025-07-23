@@ -1,3 +1,12 @@
+## Structure du projet
+
+```plaintext
+.
+├── LICENSE
+├── README.md
+└── scripts/
+    └── analyzer.py
+
 # network-port-scan-analyzer
 Projet perso : scan Nmap d'un réseau local et analyse automatique en Python.
 # 🌐 Network Port Scan & Analyzer
@@ -28,11 +37,4 @@ Objectif : scanner un réseau local à l’aide de **Nmap**, puis analyser les r
 ```bash
 nmap -sS -T4 -A -v 192.168.1.0/24 -oX scans/scan-result.xml
 
-## 📁 Structure du projet
 
-```plaintext
-.
-├── LICENSE
-├── README.md
-└── scripts/
-    └── analyzer.py
