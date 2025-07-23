@@ -28,8 +28,9 @@ Script Python qui analyse un fichier XML généré par Nmap, affiche les hôtes 
 
 ### Fichiers importants liés au script
 
-- `analyzer.py` : le script d’analyse principal  
-- `scans/scan-result.xml` : exemple de fichier XML généré par Nmap pour tester le script  
+- [scripts/analyzer.py](scripts/analyzer.py) : script Python pour analyser un fichier XML Nmap  
+- [scans/scan-result.xml](scans/scan-result.xml) : exemple de fichier XML généré par Nmap pour tester le script
+
 
 ---
 
