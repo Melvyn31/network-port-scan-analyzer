@@ -1,3 +1,15 @@
+"""
+analyzer.py - Analyseur de résultats Nmap (format XML)
+
+Ce script lit un fichier de scan Nmap exporté au format XML et affiche :
+- Les adresses IP détectées
+- Les ports ouverts
+- Les services associés
+- Une alerte si un service critique est exposé (ftp, ssh, telnet, smb)
+
+Utilisation :
+    python3 analyzer.py scan-result.xml
+"""
 import sys
 import xml.etree.ElementTree as ET
 
